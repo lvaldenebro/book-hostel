@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="landing">
 
-      <div className="landing-image-section">
+      <div className="landing-image-section frame">
         <img className="landing-image" src={ landing } alt="Colorful Pile of books" />
       </div>
       
