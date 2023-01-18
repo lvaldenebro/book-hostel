@@ -31,6 +31,8 @@ body {
   @media all and (min-width: 768px) {
     height: 80vh;
     width: 45vw;
+    border: 10px solid $teal;
+    border-radius: 20px;
   }
 }
 
@@ -38,6 +40,7 @@ body {
 // separar el marco del borde
 // .frame {
 //   border: 10px solid $yellow;
+//   border-radius: 20px;
 //   background-color: $brown;
 //   padding: 15px 10px;
 // }
@@ -58,7 +61,7 @@ body {
   height: 20vh;
   width: 100vw;
   @media all and (min-width: 768px) {
-    height: 40vh;
+    height: 30vh;
     width: 45vw;
   }
 }
