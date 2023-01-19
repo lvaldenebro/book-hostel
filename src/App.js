@@ -1,6 +1,6 @@
 import './App.scss';
 import landing from './images/landing-img.jpg';
-import logo from './images/logo.png';
+import bigLogo from './images/logo2-big.png';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       </div>
       
       <div className="landing-information">
-        <img className="logo" src={ logo } alt="BookHostel logo"/>
+        <img className="logo" src={ bigLogo } alt="BookHostel logo"/>
         <input className="landing-button" type="button" value="Start" />
       </div>
     </div>

@@ -59,10 +59,10 @@ body {
 .logo {
   //centrar el logo con el fondo transparente
   height: 20vh;
-  width: 100vw;
+  // width: 100vw;
   @media all and (min-width: 768px) {
     height: 30vh;
-    width: 45vw;
+    // width: 45vw;
   }
 }
 
